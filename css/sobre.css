@@ -54,7 +54,9 @@ figure img {
 }
 
 .contato__secao--telefone {
-     margin-left: 32px;
+     margin-left: 16px;
+     vertical-align: top ;
+     box-align: left ;
 }
 
 .contato__subtitulo {
@@ -93,8 +95,7 @@ figure img {
 
      .contato__secao {
           display: block;
-          margin-left: 1em;
-     }
+          max-height: 80px;     }
 
 }
 
@@ -110,7 +111,7 @@ figure img {
 @media (max-width: 446px) {
 
      .contato__subtitulo {
-          display: block;
+          display:contents;
           margin-bottom: 0;
      }
 
@@ -121,6 +122,8 @@ figure img {
           font-size: .92em;
 
           border-left: 2px solid lightgray;
+          box-align :left;
+          vertical-align: top;
      }
 
      .rodape {
